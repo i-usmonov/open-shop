@@ -1,0 +1,813 @@
+@import url(fonts.css);
+
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: NR;
+    /* outline: 1px red solid; */
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #313131;
+}
+
+
+
+/*#region Header nav*/
+.mynav {
+    padding: 0.8rem 0;
+}
+
+.mynavbar {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.my-item {
+    margin-left: 1.5rem;
+}
+
+.nav-link {
+    padding: 0 0 0 0;
+}
+
+.my-item a,
+.my-item select {
+    color: white;
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+}
+
+.my-item select {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.language [value] {
+    background-color: black;
+
+}
+
+.language:active~.language[value]:hover {
+    background-color: #000;
+}
+
+
+
+.my-item a:hover,
+.my-item a:focus {
+    color: white;
+}
+
+.my-item i {
+    font-size: 0.875rem;
+    padding-top: 3px;
+}
+
+.bars {
+    display: none;
+}
+
+.bars i {
+    font-size: 1.5rem;
+}
+
+/*#endregion Header nav */
+
+
+/* #region Header nav menu dropdown */
+.mynavdrop {
+    justify-content: center;
+    align-items: center;
+    padding: 1.875rem 0px 3.75rem;
+
+}
+
+.mycollapse {
+    gap: 3.125rem;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.mydropdown>a {
+    font-size: 1.125rem;
+    color: white;
+}
+
+.mydropdown>a:hover,
+.mydropdown>a:focus {
+    font-size: 1.125rem;
+    color: rgb(212, 212, 212);
+}
+
+.mydroplink a {
+    font-size: 0.875rem;
+    color: white;
+    line-height: 13px;
+    font-family: NL;
+}
+
+a.mydrtitle {
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+    font-family: NR;
+}
+
+.mydroplink a:hover {
+    text-decoration: underline;
+    background: transparent;
+    color: white;
+
+}
+
+.mydroplink {
+    max-width: 300px;
+    padding: 0.93rem 1.25rem 1rem;
+    border-radius: 0;
+    background: #0C0C0C;
+}
+
+.mydroplink[data-bs-popper] {
+    left: -1rem;
+}
+
+.mydroplink ul {
+    padding: 0;
+}
+
+.mydroplink.show {
+    display: flex;
+    gap: 2rem;
+}
+.mydroplink::after{
+    content: '';
+    background: white;
+    height: 3px;
+    width: 90%;
+    position: absolute;
+    top: 0; 
+    left: 5%;    
+
+}
+
+/* #endregion Header nav menu dropdown */
+
+
+/* #region Header search */
+
+
+.navbar-search {
+    padding: 2rem 0;
+}
+
+
+.searchnav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 450px;
+    align-items: center;
+}
+
+
+
+.myinput,
+.mybtn {
+    border: 1px #BBBBBB solid;
+    background: none;
+    color: white;
+    outline: none;
+    font-size: 0.875rem;
+}
+
+.myinput {
+    padding: 1rem 0.6rem;
+    width: 440px;
+}
+
+.mybtn {
+    padding: 1rem 0.6rem;
+}
+
+.mybtn i {
+    font-size: 1rem;
+    padding-right: 0.313rem;
+
+}
+
+/* #endregion Header search */
+
+
+/* #region Header Carusel */
+
+.carousel-info {
+    position: static;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-info h5 {
+    font-family: NS;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 7rem;
+}
+
+.allbtn {
+    font-family: NR;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding: 0.8125rem 2.875rem;
+    border: 1px white solid;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.allbtn:hover {
+    color: white;
+}
+
+.mycarind {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.carousel-btn {
+    border-radius: 50%;
+    height: 10px !important;
+    width: 10px !important;
+}
+
+.carousel-btn.active {
+    transform: scale(1.5);
+}
+
+
+/* #endregion Header Carusel */
+
+
+/* #region Main sale */
+
+.sale {
+    gap: 1.875rem;
+    padding: 3.125rem 0 1.875rem 0;
+}
+
+.sale-left {
+    background: white;
+    position: relative;
+}
+
+.sale-left img {
+    max-width: 630px;
+    width: 100%;
+}
+
+
+.main-span {
+    font-size: 1.25rem;
+    color: white;
+    background: #313131;
+    padding: 0.937rem 0.625rem;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.main-h3 {
+    font-size: 1.5rem;
+    color: #313131;
+    font-family: NM;
+    margin-bottom: 0;
+}
+
+.main-p {
+    font-size: 1.5rem;
+    color: #313131;
+    font-family: NL;
+    margin-bottom: 0;
+}
+
+
+
+.sale-left .main-span {
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+}
+
+.sale-left .main-h3 {
+    position: absolute;
+    left: 1.25rem;
+    bottom: 3rem;
+}
+
+.sale-left .main-p {
+    position: absolute;
+    left: 1.25rem;
+    bottom: 0.937rem;
+}
+
+
+
+.sale-right {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.875rem;
+}
+
+.sale-right__top {
+    position: relative;
+
+}
+
+.sale-right__top img {
+    max-width: 630px;
+    width: 100%;
+}
+
+
+.sale-right__top .main-span {
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+}
+
+.sale-right__top .main-h3 {
+    position: absolute;
+    left: 1.25rem;
+    bottom: 3.437rem;
+}
+
+.sale-right__top .main-p {
+    position: absolute;
+    left: 1.25rem;
+    bottom: 0.937rem;
+}
+
+
+
+
+.sale-right__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bt {
+    background: white;
+    position: relative;
+}
+
+.bt img {
+    max-width: 300px;
+    width: 100%;
+
+}
+
+
+.bt .main-span {
+    position: absolute;
+    bottom: 0.937rem;
+    left: 1.25rem;
+}
+
+.bt .main-h3 {
+    position: absolute;
+    top: 0.937rem;
+    left: 1.25rem;
+}
+
+.bt .main-p {
+    position: absolute;
+    top: 4.5rem;
+    left: 1.25rem;
+}
+
+
+/* #endregion Main sale */
+
+
+/* #region Cell NOut TOp */
+
+.cell-phone {
+    padding-top: 4rem;
+}
+
+.cell-phone__cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.25rem;
+}
+
+.cell-phone>h2 {
+    color: white;
+    font-size: 2.25rem;
+    font-family: NS;
+    margin-bottom: 1.875rem;
+}
+
+
+
+.mycard {
+    background: #313131;
+    position: relative;
+    border: none;
+    border: 1px solid transparent;
+}
+
+
+.fa-light {
+    color: white;
+    font-size: 1.25rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.mycard-body h5 {
+    font-family: NM;
+    font-size: 1rem;
+    color: white;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.mycard-body p {
+    font-family: NL;
+    font-size: 0.875rem;
+    color: white;
+    width: 100%;
+}
+
+.mycard-body a {
+    font-family: NR;
+    font-size: 0.875rem;
+    color: white;
+    padding: 0.375rem 2.25rem;
+    border: 1px solid white;
+    text-decoration: none;
+    visibility: hidden;
+    margin-bottom: 1rem;
+}
+
+.mycard-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -55px;
+    padding: 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.mycard:hover .fa-light {
+    opacity: 1;
+}
+
+.fa-light:hover {
+    transform: scale(1.2);
+    color: red;
+}
+
+.mycard:hover .mycard-body a {
+    visibility: visible;
+}
+
+.mycard:hover {
+    border: 1px rgba(255, 255, 255, 0.25) solid;
+}
+
+.top-seller {
+    padding-bottom: 4rem;
+}
+
+/* #endregion Cell NOut TOp */
+
+
+/* #region Main PS5 */
+
+.ps5 {
+    padding: 4.375rem 0;
+    position: relative;
+}
+
+.ps5>img {
+    max-width: 1310px;
+    width: 100%;
+}
+
+.ps5-text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10.25rem;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ps5-text h3 {
+    font-family: NS;
+    font-size: 3rem;
+    color: white;
+    margin: 1.25rem 0 4.375rem;
+    text-align: center;
+}
+
+.ps5-text a {
+    font-size: 1.125rem;
+    color: white;
+    padding: 0.75rem 2.5rem;
+    border: 1px white solid;
+    text-decoration: none;
+    width: max-content;
+}
+
+.ps5-text img {
+    max-width: 270px;
+    width: 100%;
+
+}
+
+/* #endregion Main PS5 */
+
+
+/* #region FOoTer */
+
+footer {
+    background: #0C0C0C;
+    padding: 1.875rem 0 2.81rem;
+}
+
+.footer-nav {
+    display: flex;
+    padding: 0 218px 0 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer-ulnav {
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer-fonts {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-fonts i {
+    color: white;
+    font-size: 1.875rem;
+}
+
+label {
+    color: white;
+    font-size: 1.125rem;
+}
+
+form>div {
+    border: 1px white solid;
+    display: flex;
+
+}
+
+input,
+button {
+    border: none;
+    outline: none;
+}
+
+.footerbtn {
+    color: white;
+    font-size: 1.125rem;
+    background: #313131;
+    padding: 0.75rem 3.75rem;
+}
+
+input {
+    background: #D9D9D9;
+    display: inline-block;
+
+}
+
+.footer-ulnav {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 3.125rem;
+    justify-content: center;
+}
+
+.footer-ulnav a {
+    color: white;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+/* #endregion FOoTer */
+
+
+/* #region Joystick */
+
+
+.joystick{
+    position: relative;
+}
+
+.joystick img{
+    width: 100%;
+}
+
+.joystick-top__info h2 {
+    font-size: 3rem;
+    font-family: NS;
+    line-height: 65px;
+    color: white;
+}
+
+.joystick-top__info p {
+    font-size: 1.5rem;
+    line-height: 33px;
+    color: white;
+    max-width: 454px;
+    width: 100%;
+    padding-top: 0.675rem;
+}
+
+
+.joystick-bottom{
+    position: relative;
+}
+.joystick-link{
+    position: absolute;
+    bottom: 0.7rem;
+}
+
+.joystick-link a {
+    font-size: 1.125rem;
+    line-height: 25px;
+    color: white;
+    padding: 0.75rem 2.375rem;
+    background: #313131;
+    display: inline-block;
+}
+
+
+
+.joystick-next__list {
+    display: flex;
+    padding: 3rem 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.jnumb a {
+    color: #ABABAB;
+    font-size: 1.875rem;
+    line-height: 41px;
+    padding: 0 0.625rem;
+    border-right: 1px solid #ABABAB;
+}
+
+.jnext a {
+    color: white;
+    font-size: 1.875rem;
+    line-height: 41px;
+    padding: 0 0.625rem;
+}
+
+.jnumb a:active,
+.jnumb a:hover {
+    color: white;
+    border-right: 1px solid white;
+}
+
+/* #endregion Joystick */
+
+
+/* #region aplle */
+.iphone {
+    display: flex;
+    gap: 1.875rem;
+    padding-bottom: 40px;
+}
+
+.iphone12-info h2 {
+    font-family: NS;
+    font-size: 1.875rem;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 2.5rem;
+}
+
+.iphone12-info p {
+    font-family: NM;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: white;
+
+}
+
+.iphone12-info ul a {
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    color: white;
+    line-height: 25px;
+}
+
+.iphone12-info li {
+    list-style: disc;
+    color: white;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.iphone12-info  ul{
+    padding-left: 20px;
+}
+
+.iphone12-info__link{
+    gap: 30px;
+    margin-top: 30px;
+}
+.iphone12-info__link a{
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.8rem 2.8rem;
+    border: 1px white solid;
+    letter-spacing: 2px;
+}
+
+.mytab .nav-link{
+    border: 1px transparent solid;
+}
+.mytab .nav-link.active{
+    background-color: transparent;
+    border: 1px rgba(147, 146, 146, 0.369) solid;
+}
+.mytab .nav-link:not(.active){
+    opacity: 30%;
+}
+.imgiphone{
+    max-width: 409px;
+    width: 100%;
+}
+/* #endregion aplle */
+
+
+/* #region vr ochki */
+.vre{
+    padding-bottom: 70px;
+}
+
+
+.vre img{
+    width: 100%;
+    max-width: 675px;
+
+}
+.vre-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.vre-info h3{
+    font-size: 3rem;
+    color: white;
+    font-family: NS;
+    margin-bottom: 39px;
+}
+.vre-info p{
+    font-size: 1.5rem;
+    color: white;
+    /* align-content: center; */
+    margin-bottom: 116px;
+    padding-left: 40px;
+}
+.vre-info a{
+    font-size: 1.125rem;
+    color: white;
+    padding: 12px 38px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+/* #endregion vr ochki */

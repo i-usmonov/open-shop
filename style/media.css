@@ -1,0 +1,349 @@
+@media (max-width:1399px) {
+    html {
+        font-size: 15px !important;
+    }
+
+    .searchnav {
+        padding-right: 300px !important;
+    }
+    .mycard-body {
+        margin-top: -55px;  
+    }
+
+
+}
+
+@media (max-width:1199px) {
+    html {
+        font-size: 14px !important;
+    }
+
+    .searchnav {
+        padding-right: 100px !important;
+    }
+
+    .myinput {
+        width: 300px !important;
+    }
+
+    .carousel-info {
+        width: 400px !important;
+    }
+
+    .mycarousel img {
+        max-width: 600px !important;
+    }
+    .mycard-body {
+        margin-top: -30px;  
+    }
+
+}
+
+@media (max-width:991px) {
+    html {
+        font-size: 13px !important;
+    }
+
+    .searchnav {
+        padding-right: 1.5rem !important;
+    }
+
+    .myform {
+        margin-left: 1rem;
+    }
+
+    .myinput {
+        width: 250px !important;
+    }
+
+    .mycarousel img {
+        max-width: 500px !important;
+    }
+
+    .mycarind {
+        bottom: -10px;
+    }
+
+    .carousel-info h5 {
+        margin-bottom: 2rem !important;
+        font-size: 2rem !important;
+    }
+
+    .ps5-text {
+        width: 250px !important;
+        top: 5rem !important;
+    }
+
+    .footer-nav {
+        padding: 0 0 0 0 !important;
+    }
+
+    .footer-nav img {
+        max-width: 150px;
+    }
+
+    .footerbtn {
+        padding: 0.5rem 1rem !important;
+        font-size: 1rem !important;
+    }
+    .mycard-body {
+        margin-top: -20px;  
+    }
+    .mycard img{
+        max-width: 220px;
+    } 
+
+
+}
+
+@media (max-width:767px) {
+    html {
+        font-size: 11px !important;
+    }
+
+    .mybtn {
+        padding: 0.6rem !important;
+    }
+
+    .myinput {
+        padding: 0.6rem !important;
+        width: 200px !important;
+    }
+
+    .mycarousel img {
+        max-width: 350px !important;
+    }
+
+    .carousel-info h5 {
+        margin-bottom: 1rem !important;
+        font-size: 2rem !important;
+        width: 100%;
+    }
+
+    .ps5-text {
+        width: 200px !important;
+        top: 7rem !important;
+    }
+
+    .ps5-text h3 {
+        font-size: 2rem !important;
+        margin: 1rem 0 2rem !important;
+    }
+
+    .ps5-text a {
+        font-size: 0.8rem !important;
+        padding: 0.75rem 2.5rem !important;
+    }
+
+    .footer-nav img {
+        max-width: 130px;
+    }
+
+    .sale-left img {
+        max-width: 300px;
+
+    }
+
+    .sale-left .main-span, .sale-right__top .main-span  {
+        bottom: 0.937rem;
+        left: 1.25rem;
+        top: auto;
+    }
+
+    .sale-left .main-h3, .sale-right__top .main-h3 {
+        top: 0.937rem;
+        left: 1.25rem;
+        bottom: auto;
+    }
+
+    .sale-left .main-p, .sale-right__top .main-p {
+        top: 4.5rem;
+        left: 1.25rem;
+        bottom: auto;
+    }
+
+    .sale-right__top img{
+        max-width: 300px ;
+        align-items: center;
+        height: 235px;
+    }
+    .sale-right{
+        align-items: center;
+    }
+
+    .sale-right__bottom {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .mycard-body {
+        margin-top: -40px;
+
+    }
+    .cell-phone__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+
+}
+
+@media (max-width:575px) {
+
+
+    html {
+        font-size: 10px !important;
+    }
+
+    .mycarousel {
+        flex-direction: column !important;
+
+    }
+
+    .carousel-info {
+        width: 100% !important;
+        padding-bottom: 30px !important;
+    }
+
+    .carousel-item {
+        float: none;
+    }
+
+    .mycarousel img {
+        max-width: 300px !important;
+        margin: 0 auto;
+    }
+
+    .mycarind {
+        bottom: -10px;
+    }
+
+    .carousel-btn.active {
+        transform: scale(1.2);
+    }
+
+    .footer-nav {
+        padding: 0 15px !important;
+    }
+    .cell-phone__cards{
+        gap: 10px;
+    }
+   
+    .mycard img{
+        max-width: 200px;
+    }  
+    .mycard .fa-light {
+        opacity: 1;
+    }
+    .mycard .mycard-body a {
+        visibility: visible;
+    }
+    .mycard {
+        border: 1px rgba(255, 255, 255, 0.25) solid;
+    }
+    .cell-phone>h2{
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    html {
+        font-size: 9px !important;
+    }
+
+    .header {
+        overflow: hidden;
+    }
+
+    .mynav {
+        position: fixed;
+        z-index: 99;
+        width: 100%;
+    }
+
+    .bars {
+        display: block !important;
+    }
+
+    .mynav {
+        position: relative;
+    }
+
+    .my-item__not {
+        width: 33%;
+        display: flex !important;
+        flex-direction: column;
+        text-align: right;
+        position: absolute;
+        gap: 10px;
+        right: 0;
+        top: 35px;
+        z-index: 100;
+        padding: 5px 10px 5px 0;
+        transform: translateX(120%);
+        background: rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
+
+    }
+
+
+    .my-hover:hover~.my-item__not {
+        transform: translateX(0);
+    }
+
+    .searchnav {
+        display: block !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .searchnav img {
+        display: block;
+        width: 150px;
+        margin: 5px 0px 15px 10px;
+        text-align: left;
+    }
+
+    .myform {
+        display: block !important;
+        margin-top: 15px;
+    }
+
+    .myinput {
+        width: 170px !important;
+    }
+
+    .ps5-text {
+        width: 140px !important;
+        top: 25% !important;
+    }
+
+    .ps5-text h3 {
+        font-size: 1rem !important;
+        margin: 1rem 0 2rem !important;
+    }
+
+    .footer-nav img {
+        max-width: 100px;
+    }
+
+    .footer-nav {
+        padding: 0 15px !important;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-ulnav {
+        margin-top: 15px !important;
+    }
+    .mycard img{
+        max-width: 180px;
+    }  
+ 
+    .cell-phone__cards{
+        flex-direction: column;
+        width: max-content;
+        margin: 0 auto;
+        gap: 10px;
+    }
+}
